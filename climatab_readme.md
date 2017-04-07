@@ -19,5 +19,7 @@ in column 1 there are the years; in columns 2-13 there are monthly sums of preci
 The data are from the meteorological station of Huelva “ronda del este”, Spain (coordinates: 37.28N, -6.91E, 19.0m a.s.l.) 
 
 The function climatab has tow arguments, x and y
+
 x is a data frame with the same structure as prec
+
 y is an integer ranging from 1 to 12, indicating the month of the previous year that the user defines as the beginning of the hydrological year.
