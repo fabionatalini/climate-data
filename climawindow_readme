@@ -1,0 +1,13 @@
+Ecologists sometimes need to compute climate values over periods of two or more months, e.g. cumulated precipitation.
+
+For instance, dendroclimatologists may need to check correlations between tree ring chronologies and climate data over different time scales to find out the highest correlation coefficient, which indicates the most suitable climate variable for climate reconstruction.
+
+The function climawindow computes sums or means of climate values over a user-defined number of consecutive months.
+
+The function climawindow has three arguments x, y and method
+
+x is a data frame such as that produced by the function climatab (see this repository)
+
+y is a character string indicating the first month from which the climate values are calculated
+
+method is a character string to determine whether the monthly precipitation sums or the monthly mean temperatures are computed
