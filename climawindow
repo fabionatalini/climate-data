@@ -15,7 +15,7 @@ finresultone<-as.data.frame(resultone)
 finresultone$year<-x$year
 finresultone<-finresultone[,c(which(colnames(finresultone)=='year'),which(colnames(finresultone)!='year'))]
 return(finresultone)}
-if (method=='mean') {
+else if (method=='mean') {
 startarg<-which(colnames(x)==y)
 nextarg<-which(colnames(x)==y)+1
 resultone<-list()
@@ -29,5 +29,6 @@ finresultone<-as.data.frame(resultone)
 finresultone$year<-x$year
 finresultone<-finresultone[,c(which(colnames(finresultone)=='year'),which(colnames(finresultone)!='year'))]
 return(finresultone)}
-} else {stop('y cannot be a month preceding the first month of x')} 
+else stop("y must be 'sum' or 'mean'")
+} else stop('y cannot be a month preceding the first month of x')
 }
