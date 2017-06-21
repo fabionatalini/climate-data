@@ -1,0 +1,6 @@
+The function join_climatabwin involves the functions climatab and climawindow (se this repository).
+It merges the outputs of climatab and climawindow in a single data frame.
+It has three arguments:
+x is a data frame such as that produced by the function climatab (see this repository),
+y is an integer ranging from 1 to 12, indicating the month of the previous year that the user defines as the beginning of the hydrological year (as in climatab),
+method is a character string to determine whether the monthly precipitation sums or the monthly mean temperatures are computed (i.e. 'sum' or 'mean'), as in climawindow.
