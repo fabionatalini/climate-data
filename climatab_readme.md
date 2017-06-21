@@ -8,7 +8,9 @@ The following function climatab permits to create a data frame of monthly climat
 The function is written in R programming language.
 
 To start with, import a data frame from the KNMI Climate Explorer
+
 prec<-read.table('http://climexp.knmi.nl/data/bpeca3838_sum12_anom_1959:2016.dat')
+
 prec<-round(prec,1)
 
 this gives a data frame with 13 columns:
@@ -16,7 +18,9 @@ in column 1 there are the years; in columns 2-13 there are monthly sums of preci
 The data are from the meteorological station of Rota, Spain (coordinates: 36.64N,-6.33E,21.0m)
 
 The function climatab has tow arguments, x and y
+
 x is a data frame as prec
+
 y is an integer ranging from 1 to 12, indicating the month of the previous year that the user defines as the beginning of the hydrological year.
 
 
