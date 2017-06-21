@@ -10,4 +10,4 @@ x is a data frame such as that produced by the function climatab (see this repos
 
 y is a character string indicating the first month from which the climate values are calculated (is one of the column names of x)
 
-method is a character string to determine whether the monthly precipitation sums or the monthly mean temperatures are computed
+method is a character string to determine whether the monthly precipitation sums or the monthly mean temperatures are computed (i.e. 'sum' or 'mean')
