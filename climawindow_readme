@@ -8,6 +8,6 @@ The function climawindow has three arguments x, y and method
 
 x is a data frame such as that produced by the function climatab (see this repository)
 
-y is a character string indicating the first month from which the climate values are calculated
+y is a character string indicating the first month from which the climate values are calculated (is one of the column names of x)
 
 method is a character string to determine whether the monthly precipitation sums or the monthly mean temperatures are computed
