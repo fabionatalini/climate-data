@@ -3,9 +3,14 @@ In this project there are functions and programs to manipulate and plot climate 
 There is a user manual ("read_me") for each function or program.
 
 Functions:
+
 climatab.R
+
 climawindow.R
+
 join_climatabwin.R
 
+
 Programs:
+
 Climaplot.R
