@@ -24,35 +24,3 @@ The function climatab has tow arguments, x and y
 x is a data frame as prec
 
 y is an integer ranging from 1 to 12, indicating the month of the previous year that the user defines as the beginning of the hydrological year.
-
-
-
-#########################################################################################################################
-
-Programming notes
-
-The function climatab has been developed starting from the following script:
-
-dat<-data.frame(year=c(100,101,102,103,104),matrix(rnorm(60,1000,200),5,12)) #generate a data frame
-
-dat<-round(dat,0) # round decimal digits
-
-dat[,c(10:13)]
-
-rbind(c(0,0),dat[,c(10:13)])
-
-nrow(rbind(c(0,0),dat[,c(10:13)]))-1
-
-rbind(c(0,0),dat[,c(10:13)])[c(1:(nrow(rbind(c(0,0),dat[,c(10:13)]))-1)),]
-
-new.dat<-cbind(rbind(c(0,0),dat[,c(10:13)])[c(1:(nrow(rbind(c(0,0),dat[,c(10:13)]))-1)),],dat
-
-colnames(new.dat)=c(paste('pr',colnames(new.dat)[1:4], sep=""),colnames(new.dat)[5:length(colnames(new.dat))])
-
-which(colnames(new.dat)=='year')
-
-which(colnames(new.dat)!='year')
-
-fin.dat<-new.dat[,c(which(colnames(new.dat)=='year'),which(colnames(new.dat)!='year'))]
-
-#########################################################################################################################
