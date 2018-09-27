@@ -1,22 +1,13 @@
-####################################### Arguments for trial ########################################
-
-# working directory
-setwd("C:/Users/solutio/Dropbox/works in progress/R_develop")
-# setwd("~/Downloads/R_develop")
-# Climate data set:
-# it can be a tab-separated txt file, with three columns named "date" (format must be yyyy-mm-dd), "mean_temp" and "precip",
-dclima<-read.table('datosclima.txt',header=TRUE,sep='\t', na.strings = "", stringsAsFactors = FALSE)
-# or a tab-separated txt file, with five columns named "year", "month", "day", "mean_temp" and "precip":
-dclima<-read.table('datosclima_ymd.txt',header=TRUE,sep='\t',na.strings = "", stringsAsFactors = FALSE)
-# Enter the name of the site the climate data are from
-your_site <- "Palma del Rio (Cordoba)"
-# Enter the name and the image format to export the climate plot
-output_file_name <- "mi_plot"
-# this can be jpeg, tiff, png, pdf
-output_file_format <- "jpeg"
+##############################################################################################################
+### Hi! This is Climaplot, a program that will enable you to plot a climograph with your own climate data. ###
+### Author: Fabio Natalini.                                                                                ###
+### A user manual is available in my github repository (https://github.com/fabionatalini/climate-data).    ###
+### To know more, visit my website and blog (https://fabionatalini.wixsite.com/fabio).                     ###
+### Any question, comment or suggestion? Contact me: https://fabionatalini.wixsite.com/fabio/contact       ###
+##############################################################################################################
 
 
-#################### User inputs (used when the app is run in a command line) #######################
+######################################## User inputs ###########################################
 
 # working directory
 cat("Enter the working directory:")
