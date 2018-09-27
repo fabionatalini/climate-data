@@ -1,3 +1,1 @@
-In this repository there are codes to manipulate climate data.
-I developed these codes during my research works in forest ecology. You may find them useful for studies in ecology and environmental sciences.
-The codes are written with the R programming language.
+In this project there are functions and programs to manipulate and plot climate data. I develop this project for personal interest, and it is also partly related to my activities as researcher and data scientist. The codes are written with the R programming language. This project can be interesting and useful to geographers, climatologists, ecologists, agricultural/forest/environmental engineers, as well as to students, academics and teachers.
