@@ -1,7 +1,8 @@
-In this project there are functions and programs to manipulate and plot climate data. I develop this project for personal interest, and it is also partly related to my activities as researcher and data scientist. The codes are written with the R programming language. This project can be interesting and useful to geographers, climatologists, ecologists, agricultural/forest/environmental engineers, as well as to students, academics and teachers.
+In this project there are functions to manipulate climate data.
 
-There is a user manual ("read_me") for each function or program.
+The codes are written with the R programming language. The source files are climatab.R, climawindow.R and join_climatabwin.R
 
-Functions: climatab.R; climawindow.R; join_climatabwin.R
+There is a user manual ("read_me") for each function: please check the user manuals for further details about each function.
 
-Programs: Climaplot.R
+Thank you for your interest in this project.
+For any question, comment or suggestion, contact me or visit my web site https://fabionatalini.wixsite.com/fabio
